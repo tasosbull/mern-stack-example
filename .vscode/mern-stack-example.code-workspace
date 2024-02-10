@@ -1,0 +1,14 @@
+{
+	"folders": [
+		
+		{
+
+			"path": "../mern/server"
+		},
+		{
+
+			"path": "../mern/client"
+		}
+	],
+	"settings": {}
+}

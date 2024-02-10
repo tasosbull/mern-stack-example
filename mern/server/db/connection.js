@@ -1,7 +1,8 @@
 import { MongoClient, ServerApiVersion } from "mongodb";
 
-const URI = process.env.ATLAS_URI || "";
-const client = new MongoClient(URI, {
+//const URI = process.env.ATLAS_URI || "mongodb://localhost:5532/mydb";
+//var MongoClient = require('mongodb').MongoClient;
+const client = new MongoClient("mongodb://127.0.0.1:27017/mydb", {
   serverApi: {
     version: ServerApiVersion.v1,
     strict: true,
